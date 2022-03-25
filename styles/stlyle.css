@@ -9,6 +9,7 @@ body {
 
 nav {
     background-color: #333;
+    border-bottom: 4px solid #35a6ff;;
 }
 
 a {
@@ -30,7 +31,7 @@ a {
     float: left;
 }
 
-.link:hover {
+.item:hover .link {
     background-color: #35a6ff;
     color: #fff;
 }
@@ -58,11 +59,6 @@ a {
     position: absolute;
     top: 14px;
     right: 14px;
-}
-
-.dropdown:hover .link {
-    background-color: #35a6ff;
-    color: #fff;
 }
 
 .dropdown .submenu {
@@ -103,11 +99,4 @@ a {
 .dropdown.item .dropdown .submenu {
     top: -1px;
     left: 100%
-}
-
-hr {
-    border: none;
-    height: 4px;
-    background-color: #35a6ff;
-    margin: 0;
 }
